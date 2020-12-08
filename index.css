@@ -1,1 +1,13 @@
 /* Put your style information here! */
+
+
+.introcontainer {
+    background: aqua;
+    height:400px;
+
+}
+
+.aboutmecontainer {
+    background: blue;
+    height: 400px; 
+}
