@@ -1,13 +1,59 @@
-/* Put your style information here! */
-
-
 .introcontainer {
-    background: aqua;
-    height:400px;
+    height:350px;
+    display: grid; 
+    grid-template-columns: 40% 20% 40%;
+}
+
+.introdescription {
+    justify-content: center;
+}
+
+.introdescriptiontitle {
+    font-family: copperplate;
+    font-size: 20px; 
+    justify-content: center;
+    margin-top: 40px;
 
 }
 
-.aboutmecontainer {
-    background: blue;
-    height: 400px; 
+.introdescriptiondescrip {
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin-top: 40px;
 }
+
+.aboutmedescription {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.aboutmedescriptiontitle {
+    font-size: 30px;
+}
+
+.aboutmedescriptiondescrip {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.projectcontainer {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    font-family: garamond;
+}
+
+.orangehealthdescrip {
+    margin: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2pt black;
+    padding: 20px;
+
+}
+
+.orangeboximg {
+    border-radius: 20px; 
+}
+

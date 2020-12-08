@@ -5,12 +5,13 @@
     <title>UIUX Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="mdb.min.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">UI/UX Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,79 +22,132 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#intro">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#project">Projects</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="introcontainer">
-      <div class="introdescription">
-        "Hey! I am UI/UX Student #123" <br>
-        "I'm passionate about always learning and dabbling in new aspects of design from mobile apps to emerging technology"
+    <div class="introcontainer" id="intro">
 
+      <div class="introdescription">
+
+        <div class="introdescriptiontitle">
+          <center><b>Hey! I am UI/UX Student #123</b></center>
+        </div>
+
+        <div class="introdescriptiondescrip">
+          <center>
+            I'm passionate about always learning and dabbling in new aspects of design from mobile apps to video game UI
+          </center>
+        </div>
       </div>
 
       <div class="introimage">
         <img src="animeboy.png" alt="animeboy">
       </div>
-    </div>
-
-    <div class="aboutmecontainer">
-
-      <div>
-
-      </div>
 
       <div class="aboutmedescription"> 
-        "A little bit about myself...I am a senior at Brown University, concentrating in Computer Science-Economics
+
+        <div class="aboutmedescriptiontitle">
+          <b>A little bit about myself...</b>
+        </div>
+
+        
+        <div class="aboutmedescriptiondescrip">
+          I am a senior at Brown University, concentrating in Computer Science-Economics
         joint degree. I have yet to have any work experience in the design field, but I do have experience interning as a 
         data science engineer at Coupang, an e-commerce unicorn, and working as an Undergrad Teaching Assistant for Brown's 
-        Computer System's course.
+        Computer Systems course.
+        </div>
         
-        If you want to connect or have any further questions, please feel free to contact me through my socials below. You 
-        can download my resume here. 
-        "
+        <div class="aboutmedescriptiondescrip">
+          If you want to connect or have any further questions, please feel free to contact me through my <a href="#">socials
+          </a> below. You 
+          can download my <a href="#">resume</a> here. 
+        </div>
+        
       </div>
-   
     </div>
 
-    <div class="project container">
+    <hr>
 
 
-      <div class="orangehealthcontainer">
-        <img src="orangehealthreso.png" alt="orangehealthlogo">
+    <div class="projectcontainer" id="project">
 
-        Mobile App design pitch idea for OrangeHealth, a startup that aims to solve healthcare insecurity in India by providing an online platform
-        that connects doctors and patients for online health consulting, prescription, and billing. 
+        <div class="orangehealthdescrip">
+        <div style="font-size: 40px">
+          <b>OrangeHealth</b>
+        </div>
+        <div style="font-size: 30px">
+          Mobile App Design Pitch For OrangeHealth, 
+        </div>
+        a startup that aims to solve healthcare insecurity in India by providing an online platform
+        that connects doctors and patients for online health consulting, prescription, and billing.
+        <div>
+          Focused on the usability principle of learnability where patients and doctors of all ages could easily understand and use all of
+        OrangeHealth's app's functionalities
+        </div>
+        
+        <div>
+          <a href="https://hidden-dawn-30177.herokuapp.com/?fbclid=IwAR2Kg68WpUDhEwk9owQTISOKC38CZKoqFCY21XIQHWhSQdeT_XiForYFNLY">
+            View Project
+            </a>
+        </div>
+        </div>
 
-        Focused on the usability principle of learnability where patients and doctors of all ages could easily understand and use all of
-        OrangeHealth's app's functionalities. 
+        <div class="orangeboximg" style="margin: 70px">
+            <img src="orangephone.png" alt="orangehealthlogo">
+        </div>
 
-        View Project
+    </div>
+      
+    <div class="projectcontainer">
+
+      <div class="orangehealthdescrip">
+        <div style="font-size: 40px">
+          <b>PC PartPicker</b>
+        </div>
+
+        <div>
+          <div style="font-size: 30px">
+            Website Redesign For PC PartPicker's System Builder
+          </div>
+          <div>
+            Overhaul of PC PartPicker's System Builder website. Added photos for each PC part for better usability and removed the need
+            to navigate to other websites by providing recommendations for each PC part to increase efficiency 
+          </div>
+          
+        </div>
+
+
+
+        <div>
+          <a href="https://pcpartpicker.com/list/">
+            PCPartPicker Website
+            </a>
+        </div>
+
+        <div>
+          <a href="https://secret-mesa-90608.herokuapp.com/">
+            PCPartPicker Redesign
+            </a>
+        </div>
+
         
 
-        https://hidden-dawn-30177.herokuapp.com/?fbclid=IwAR2Kg68WpUDhEwk9owQTISOKC38CZKoqFCY21XIQHWhSQdeT_XiForYFNLY
       </div>
-      
 
-      <div class="petshopcontainer">
-        <img src="petshop.png" alt="petshoplogo">
-        https://pure-bayou-35676.herokuapp.com/
-      </div>
-      
 
-      <div class="pcpartpickercontainer">
+      <div style="margin-top: 70px">
         <img src="pcpartpickerreso.png" alt="pcpartpickerlogo">
 
-        https://secret-mesa-90608.herokuapp.com/
-
       </div>
 
-      
+
 
 
 
@@ -101,7 +155,82 @@
 
 
     </div>
-    
+
+    <div class="projectcontainer">
+
+      <div class="orangehealthdescrip">
+        <div style="font-size: 40px">
+          <b>Pet Shop</b>
+        </div>
+
+        <div>
+          <div style="font-size: 30px">
+            Website Design For E-Commerce Pet Shop
+          </div>
+          <div>
+            Designed a clean layout where customers could sort and filter through pet options and add pets to an aggregator cart 
+          </div>
+          
+        </div>
+
+
+
+        <div>
+          <a href="https://pure-bayou-35676.herokuapp.com/">
+            View Project
+            </a>
+        </div>
+      </div>
+
+      <div>
+        <img src="petshop.png" alt="petshoplogo">
+      </div>
+        
+    </div>
+
+    <div class="projectcontainer">
+
+
+      <div class="orangehealthdescrip">
+        <div style="font-size: 40px">
+          <b>Personas and Storyboard</b>
+        </div>
+
+        <div>
+          <div style="font-size: 30px">
+            Interface Analysis of Air Purifier and Creation of Storyboard
+          </div>
+          <div>
+            First webdesign project. Analyzed the interface of an air purifier by breaking down its features by usability principles.
+            Then, created personas and a storyboard based off the air purifier interface analysis
+          </div>
+          
+        </div>
+
+
+
+        <div>
+          <a href="https://shrouded-tundra-33256.herokuapp.com/">
+            View Project
+            </a>
+        </div>
+
+        
+
+      </div>
+
+      <div style="margin: 70px">
+        <img src="purifier copy.png" alt="pcpartpickerlogo">
+      </div>
+
+  </div>
+
+  
+<footer class="page-footer font-small unique-color-dark pt-4">
+  <div class="footer-copyright text-center py-3">©
+    <a href="https://mdbootstrap.com/"> UI/UX Student #123</a>
+  </div>
+</footer>
 
   </body>
 </html>
